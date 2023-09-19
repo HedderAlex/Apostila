@@ -15,13 +15,97 @@
         <li class="header"><a href="#css" class="links"><h3 class="alinhamento">CSS</h3></a></li>
     </ul>
     </header>
-    <h2 id="css" class="css">
-        CSS
-    </h2>
+    <h2 id="css" class="css">CSS</h2>
     <ul>
         <li>
             CSS-Cascading Style Sheets(Folha de Estilo em Cascata)
         </li>
+        <li>
+            CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996.
+        </li>
+    </ul>
+    <h2>
+        Inserir Estilo
+    </h2>
+    <ul>
+        <li>
+            Para inserir CSS na sua pagina,uma das formas é adicionando um link para seu css no head do seu HTML
+        </li>
+        <li>
+            Exemplo:
+        </li>
+        <ul>
+            <li>
+                &lt;head&gt;
+                &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+                &lt;/head&gt;
+            </li>
+        </ul>
+        <li>
+            Outra forma é adicionando o CSS no elemento que queira mudar no HTML
+        </li>
+        <li>
+            Exemplo:
+        </li>
+        <ul>
+            <li>
+                &lt;h1 style="color:white;margin-left:30px;"&gt;Heading&lt;/h1&gt;
+            </li>
+        </ul>
+    </ul>
+    <h2>Seletor</h2>
+    <ul>
+        <li>
+            Utilizados para estilizar elementos HTML
+        </li>
+        <li>
+            Exemplos de seletores:
+        </li>
+        <ul>
+            <li>
+                Elementos:seleciona todos os elementos da pagina
+            </li>
+            <li>
+                Id:seleciona apenas o elemento com o id(utiliza # para selecionar)
+            </li>
+            <li>
+                Class:seleciona todos os elementos com a mesma classe,um elemento pode ter mais de uma classe(utiliza . para selecionar)
+            </li>
+        </ul>
+        <li>
+            Exemplos de codigos:
+        </li>
+        <ul>
+            <li>
+                p{font-size: 200%;}
+            </li>
+            <li>
+                #paragrafo{text-align: center;}
+            </li>
+            <li>
+                .paragrafo{color: black;}
+            </li>
+        </ul>
+    </ul>
+    <h2>Cores CSS</h2>
+    <h3>RGB</h3>
+    <ul>
+        <li>É possível cirar muitas cores utilizando o RGB(red,green,blue)</li>
+        <li>Cada uma desses valores vai de 0 até 255</li>
+        <li>Se precisar de transparencia, utilize o RGBA, que ira adicionar transparencia na cor desejada</li>
+        <li>Exemplo:</li>
+        <ul>
+            <li>&lt;h1 style="background-color:rgba(240, 100,50,0.5);"&gt;Background RGBA&lt;/h1&gt;</li>
+        </ul>
+    </ul>
+    <h3>HEX</h3>
+    <ul>
+        <li>Tambem é possivel utilizando Hexadecimal(#rrggbb)</li>
+        <li>Ou seja,varia de 0 até f</li>
+    </ul>
+    <h2>Background</h2>
+    <ul>
+        <li>É possivel tanto colocar cor no fundo, quanto imagens e videos</li>
     </ul>
     </div>
 </body>
